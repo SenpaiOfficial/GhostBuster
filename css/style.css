@@ -60,8 +60,12 @@ body {
  line-height: 21px;
  color: #363636;
  margin-right: 18px;
+ transition: .3s;
 }
-
+.navigation-link:hover {
+ font-size: 19px;
+ color: gray;
+}
 .button-group {
  display: flex;
  justify-content: center;
